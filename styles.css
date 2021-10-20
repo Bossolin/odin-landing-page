@@ -42,6 +42,7 @@ main {
   background-color: #1f2937;
   padding: 100px 15%;
   flex: 1;
+  gap: 18px;
 }
 
 .intro-text,
@@ -167,4 +168,13 @@ main {
 
 .signup-text p {
   font-size: 15px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #d9dbdd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 36px;
 }
