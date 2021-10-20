@@ -13,25 +13,13 @@ body {
 }
 
 header {
-  background-color: #1f2937;
-}
-header > div {
   display: flex;
   color: #e5e7eb;
   font-size: 18px;
-  max-width: 70%;
-  margin: auto;
   align-items: center;
   gap: 24px;
-  padding: 16px 0;
-}
-
-main {
-  flex-grow: 1;
-}
-
-li {
-  list-style: none;
+  padding: 16px 15%;
+  background-color: #1f2937;
 }
 
 .logo {
@@ -39,4 +27,49 @@ li {
   font-size: 24px;
   color: #f9faf8;
   font-weight: bold;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.intro {
+  display: flex;
+  background-color: #1f2937;
+  padding: 100px 15%;
+}
+
+.intro-text,
+.intro-image {
+  flex: 1;
+}
+
+.intro-text h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.intro-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.intro-button {
+  background-color: #3882f6;
+  color: white;
+  padding: 8px 32px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 12px;
+  border: none;
+}
+
+.intro-image {
+  background-color: #6d747d;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
