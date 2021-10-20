@@ -10,6 +10,7 @@
 body {
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 
 header {
@@ -30,7 +31,7 @@ header {
 }
 
 main {
-  flex-grow: 1;
+  flex: 1;
 }
 
 .intro {
@@ -72,4 +73,44 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.info {
+  padding: 32px 15%;
+  margin-bottom: 64px;
+}
+
+.info h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.info ul {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.info li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  max-width: 160px;
+}
+
+.info p,
+.info div {
+  flex: 1 1 auto;
+  text-align: center;
+  color: #6d747d;
+}
+
+.info-box {
+  border: #3882f6 solid 4px;
+  height: 160px;
+  width: 160px;
+  border-radius: 16px;
 }
